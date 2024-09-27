@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81150E82CA753420083AC8D /* mario4.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = F81150E72CA7533F0083AC8D /* mario4.png */; };
 		F8DD51CA2C9DC81200FDDDD5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8DD51C92C9DC81200FDDDD5 /* main.cpp */; };
 		F8DD51D52C9DC8F300FDDDD5 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8DD51D32C9DC8F300FDDDD5 /* ShaderProgram.cpp */; };
 		F8DD51D82C9DC99B00FDDDD5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DD51D72C9DC99B00FDDDD5 /* OpenGL.framework */; };
@@ -25,14 +26,16 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				F8DD51E12C9DC9C300FDDDD5 /* shaders in CopyFiles */,
 				F8DD51F72CA1E57B00FDDDD5 /* assets in CopyFiles */,
+				F8DD51E12C9DC9C300FDDDD5 /* shaders in CopyFiles */,
+				F81150E82CA753420083AC8D /* mario4.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F81150E72CA7533F0083AC8D /* mario4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mario4.png; path = assets2/mario4.png; sourceTree = "<group>"; };
 		F8DD51C62C9DC81200FDDDD5 /* SDLSimple2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLSimple2; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DD51C92C9DC81200FDDDD5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F8DD51D02C9DC8F200FDDDD5 /* ShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProgram.h; sourceTree = "<group>"; };
@@ -84,6 +87,7 @@
 		F8DD51C82C9DC81200FDDDD5 /* SDLSimple2 */ = {
 			isa = PBXGroup;
 			children = (
+				F81150E72CA7533F0083AC8D /* mario4.png */,
 				F8DD51F62CA1E57700FDDDD5 /* assets */,
 				F8DD51C92C9DC81200FDDDD5 /* main.cpp */,
 				F8DD51D12C9DC8F200FDDDD5 /* glm */,

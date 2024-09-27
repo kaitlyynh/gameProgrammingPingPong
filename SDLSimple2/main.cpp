@@ -34,7 +34,6 @@ constexpr float BG_RED     = 0.9765625f,
                 BG_BLUE    = 0.9609375f,
                 BG_OPACITY = 1.0f;
 
-
 constexpr int VIEWPORT_X      = 0,
               VIEWPORT_Y      = 0,
               VIEWPORT_WIDTH  = WINDOW_WIDTH,
