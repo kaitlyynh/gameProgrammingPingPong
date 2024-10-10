@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F81150E82CA753420083AC8D /* mario4.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = F81150E72CA7533F0083AC8D /* mario4.png */; };
-		F8DD51CA2C9DC81200FDDDD5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8DD51C92C9DC81200FDDDD5 /* main.cpp */; };
-		F8DD51D52C9DC8F300FDDDD5 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8DD51D32C9DC8F300FDDDD5 /* ShaderProgram.cpp */; };
+		F82895392CB5C19A0039984D /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = F82895382CB5C19A0039984D /* shaders */; };
 		F8DD51D82C9DC99B00FDDDD5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DD51D72C9DC99B00FDDDD5 /* OpenGL.framework */; };
 		F8DD51DA2C9DC99E00FDDDD5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DD51D92C9DC99E00FDDDD5 /* Cocoa.framework */; };
 		F8DD51DE2C9DC9AE00FDDDD5 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DD51DB2C9DC9AE00FDDDD5 /* SDL2_image.framework */; };
 		F8DD51DF2C9DC9AE00FDDDD5 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DD51DC2C9DC9AE00FDDDD5 /* SDL2.framework */; };
 		F8DD51E02C9DC9AE00FDDDD5 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DD51DD2C9DC9AE00FDDDD5 /* SDL2_mixer.framework */; };
-		F8DD51E12C9DC9C300FDDDD5 /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8DD51D42C9DC8F300FDDDD5 /* shaders */; };
-		F8DD51F72CA1E57B00FDDDD5 /* assets in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8DD51F62CA1E57700FDDDD5 /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,29 +22,21 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				F8DD51F72CA1E57B00FDDDD5 /* assets in CopyFiles */,
-				F8DD51E12C9DC9C300FDDDD5 /* shaders in CopyFiles */,
-				F81150E82CA753420083AC8D /* mario4.png in CopyFiles */,
+				F82895392CB5C19A0039984D /* shaders in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F81150E72CA7533F0083AC8D /* mario4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mario4.png; path = assets2/mario4.png; sourceTree = "<group>"; };
+		F81150EB2CB5ACF80083AC8D /* SDLSimple2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SDLSimple2; sourceTree = "<group>"; };
+		F82895382CB5C19A0039984D /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = shaders; path = SDLSimple2/shaders; sourceTree = "<group>"; };
 		F8DD51C62C9DC81200FDDDD5 /* SDLSimple2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLSimple2; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8DD51C92C9DC81200FDDDD5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F8DD51D02C9DC8F200FDDDD5 /* ShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProgram.h; sourceTree = "<group>"; };
-		F8DD51D12C9DC8F200FDDDD5 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
-		F8DD51D22C9DC8F200FDDDD5 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
-		F8DD51D32C9DC8F300FDDDD5 /* ShaderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderProgram.cpp; sourceTree = "<group>"; };
-		F8DD51D42C9DC8F300FDDDD5 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
 		F8DD51D72C9DC99B00FDDDD5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		F8DD51D92C9DC99E00FDDDD5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F8DD51DB2C9DC9AE00FDDDD5 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 		F8DD51DC2C9DC9AE00FDDDD5 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		F8DD51DD2C9DC9AE00FDDDD5 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
-		F8DD51F62CA1E57700FDDDD5 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +58,8 @@
 		F8DD51BD2C9DC81200FDDDD5 = {
 			isa = PBXGroup;
 			children = (
-				F8DD51C82C9DC81200FDDDD5 /* SDLSimple2 */,
+				F82895382CB5C19A0039984D /* shaders */,
+				F81150EB2CB5ACF80083AC8D /* SDLSimple2 */,
 				F8DD51C72C9DC81200FDDDD5 /* Products */,
 				F8DD51D62C9DC99A00FDDDD5 /* Frameworks */,
 			);
@@ -82,21 +71,6 @@
 				F8DD51C62C9DC81200FDDDD5 /* SDLSimple2 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F8DD51C82C9DC81200FDDDD5 /* SDLSimple2 */ = {
-			isa = PBXGroup;
-			children = (
-				F81150E72CA7533F0083AC8D /* mario4.png */,
-				F8DD51F62CA1E57700FDDDD5 /* assets */,
-				F8DD51C92C9DC81200FDDDD5 /* main.cpp */,
-				F8DD51D12C9DC8F200FDDDD5 /* glm */,
-				F8DD51D32C9DC8F300FDDDD5 /* ShaderProgram.cpp */,
-				F8DD51D02C9DC8F200FDDDD5 /* ShaderProgram.h */,
-				F8DD51D42C9DC8F300FDDDD5 /* shaders */,
-				F8DD51D22C9DC8F200FDDDD5 /* stb_image.h */,
-			);
-			path = SDLSimple2;
 			sourceTree = "<group>";
 		};
 		F8DD51D62C9DC99A00FDDDD5 /* Frameworks */ = {
@@ -168,8 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DD51CA2C9DC81200FDDDD5 /* main.cpp in Sources */,
-				F8DD51D52C9DC8F300FDDDD5 /* ShaderProgram.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +261,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_PREFIX = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
@@ -305,6 +279,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_PREFIX = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
